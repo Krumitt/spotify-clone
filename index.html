@@ -14,6 +14,7 @@
     <link rel="icon" href="assets/photo/soundcloud-icon.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         crossorigin="anonymous">
+    <script defer src=" script.js"></script>
 
 </head>
 
@@ -47,14 +48,130 @@
     </nav>
     <!--Navbar-->
 
+    <main>
+
+        <!--Main left part-->
+        <div class="main-left-part">
+            <div class="library">
+                <div class="library-heading">
+                    <p>Library</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="playlist-container">
+                    <p style="font-weight:bolder">Create your first playlist</p>
+                    <p style="font-weight:lighter">It's easy we'll help you</p>
+                    <button>
+                        Create playlist
+                    </button>
+                </div>
+                <div class="podcast-container">
+                    <p style="font-weight:bolder">Let's find some podcasts to follow</p>
+                    <p style="font-weight:lighter">We'll keep you updated on new updates</p>
+                    <button>Browse podcasts</button>
+                </div>
+            </div>
+
+        </div>
+        <!--Main left part-->
 
 
-    <!--Main left part-->
 
-    <!--Main left part-->
+        <!--Main right part-->
+        <div class="main-right-part">
+            <div class="music-banner">
+                <h2>Pop Music</h2>
+                <div class="horizontal-music">
+                    <div class="music-card">
+                        <div class="music-card-image">
+                            <img src="assets/photo/michael.png" alt="michael">
+                            <i id="1" class="playMusic fa-solid fa-play"></i>
+                        </div>
+                        <div class="music-card-name">
+                            <p>Thriller</p>
+                        </div>
+                        <div class="music-card-description">
+                            <p style="font-weight:lighter">Cuz this is THRILLERRRR!!!!</p>
+                        </div>
+                    </div>
+                    <div class="music-card">
+                        <div class="music-card-image">
+                            <img src="assets/photo/michael.png" alt="michael">
+                            <i id="2" class="playMusic fa-solid fa-play"></i>
+                        </div>
+                        <div class="music-card-name">
+                            <p>Thriller</p>
+                        </div>
+                        <div class="music-card-description">
+                            <p style="font-weight:lighter">Cuz this is THRILLERRRR!!!!</p>
+                        </div>
+                    </div>
+                    <div class="music-card">
+                        <div class="music-card-image">
+                            <img src="assets/photo/michael.png" alt="michael">
+                            <i id="3" class="playMusic fa-solid fa-play"></i>
+                        </div>
+                        <div class="music-card-name">
+                            <p>Thriller</p>
+                        </div>
+                        <div class="music-card-description">
+                            <p style="font-weight:lighter">Cuz this is THRILLERRRR!!!!</p>
+                        </div>
+                    </div>
 
 
-    <script src="script.js"></script>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!--Main right part-->
+
+
+    </main>
+    <!--Player-->
+    <div class="player-bar">
+        <div class="now-bar">
+            <img src="assets\photo\michael.png" alt="">
+            <div class="image-text">
+                <div class="img-title-info"><span style="font-weight: bolder;">Song title</span></div>
+                <div class="img-des-info"><span style="font-weight: lighter;">Song description</span></div>
+            </div>
+        </div>
+
+        <div class="music-controller">
+            <div class="music-controls-container">
+                <div id="shuffle">
+                    <i class="fa-solid fa-shuffle"></i>
+                </div>
+
+                <div id="backward">
+                    <i class="fa-solid fa-backward"></i>
+                </div>
+
+                <div id="play">
+                    <i class="fa-solid fa-circle-play"></i>
+                </div>
+
+                <div id="forward">
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+
+                <div id="repeat">
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+            </div>
+            <div>
+                <input type="range" id="progressBar" value="0">
+            </div>
+
+        </div>
+        <div></div>
+    </div>
+
+
+
+
 </body>
 
 </html>
