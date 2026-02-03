@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",
+        sans-serif;
+    list-style: none;
+}
+
+nav img {
+    height: 30px;
+
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 4rem;
+    color: white;
+
+}
+
+.logo {
+    font-size: 2.6rem;
+    padding: 1rem;
+}
+
+.home-icon {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    background-color: rgba(86, 75, 75, 0.676);
+    border-radius: 50%;
+    color: rgb(164, 161, 161);
+    transition: all 0.2s ease;
+}
+
+.left-half {
+    display: flex;
+    align-items: center;
+
+}
+
+.home-icon:hover {
+    color: white;
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.search-bar {
+    display: flex;
+    gap: 1rem;
+    margin: 0 2rem;
+    background-color: rgb(56, 54, 54);
+    height: 3rem;
+    width: 25rem;
+    align-items: center;
+    padding: 0 1rem;
+    border-radius: 30px;
+    justify-content: space-between;
+
+}
+
+.search-bar:hover {
+    border: 1px solid white;
+}
+
+.search-icon {
+    font-size: 1.3rem;
+    color: rgb(164, 161, 161);
+    transition: 0.3s;
+
+}
+
+.search-bar:hover .search-icon {
+    color: white;
+}
+
+.search-input-box {
+    width: 78%;
+    background: transparent;
+    border: none;
+    height: 50%;
+    color: white;
+    padding: 0.3rem;
+    font-size: 1rem;
+    border-right: 1.5px solid black;
+}
+
+.folder {
+    font-size: 1.3rem;
+    color: rgb(164, 161, 161);
+    transition: 0.3s;
+}
+
+.folder:hover {
+    cursor: pointer;
+    color: white;
+    transform: scale(1.06);
+}
+
+.right-half {
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 100%;
+}
+
+.right-half-p1 {
+    display: flex;
+    margin: 0 2rem;
+    border-right: 1.5px solid gray;
+    height: 50%;
+    align-items: center;
+    padding-right: 0.6rem;
+    color: rgb(164, 161, 161);
+    font-weight: 600;
+
+}
+
+.right-half-p1 p {
+    margin: 0 0.8rem;
+    transition: all 0.5s;
+}
+
+.right-half-p1 p:hover {
+    color: white;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.right-half-p2 {
+    display: flex;
+    margin: 0 2rem;
+    height: 50%;
+    align-items: center;
+    gap: 1rem;
+}
+
+.right-half-p2 {
+    display: flex;
+    margin: 0 2rem;
+}
+
+.right-half-p2 p {
+    color: rgb(164, 161, 161);
+    transition: all 0.3s;
+}
+
+.right-half-p2 p:hover {
+    color: white;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.install {
+    display: flex;
+    gap: 0.4rem;
+    color: rgb(164, 161, 161);
+    transition: all 0.3s;
+}
+
+.install:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    color: white;
+}
+
+.login-butt {
+    height: 100%;
+    padding: 0 1rem;
+    border-radius: 20px;
+    border: none;
+    font-weight: bolder;
+    transition: all 0.3s;
+}
+
+.login-butt:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
